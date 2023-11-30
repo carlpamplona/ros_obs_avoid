@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-             'obs_avoid_node = obs_avoid.obs_avoid:main'
+             'obs_avoid_node = obs_avoid.obs_avoid:main',
+             'obj_detect_node = obs_avoid.detect:main'
         ],
     },
 )
